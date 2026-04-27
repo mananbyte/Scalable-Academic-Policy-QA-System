@@ -3,6 +3,11 @@ Configuration file for the Scalable Academic Policy QA System.
 """
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load variables from .env (project root) into the environment.
+# Safe to call even if .env doesn't exist — it's silently ignored.
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 # ─── Paths ───────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -47,8 +52,13 @@ RERANK_WEIGHT_HAMMING = 0.20
 RERANK_WEIGHT_SECTION = 0.15
 
 # ─── Gemini LLM ──────────────────────────────────────────────────────────────
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAjYWux3afvQc5uCaLJRciLRwjlvaAKbEk")
-GEMINI_MODEL = "gemini-3-flash-preview"
+# Set the GEMINI_API_KEY environment variable before running:
+#   Windows:  $env:GEMINI_API_KEY = "your-key"   (PowerShell)
+#             set GEMINI_API_KEY=your-key          (CMD)
+#   Linux/Mac: export GEMINI_API_KEY=your-key
+# If unset, the system falls back to extractive answer mode automatically.
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")  # no hardcoded key
+GEMINI_MODEL = "gemini-2.0-flash"
 
 # ─── NLTK Data ───────────────────────────────────────────────────────────────
 NLTK_DATA_DIR = PROJECT_ROOT / "nltk_data"
