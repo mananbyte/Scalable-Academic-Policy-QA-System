@@ -575,11 +575,6 @@ with st.sidebar:
     )
 
     use_llm = answer_mode == "Gemini LLM"
-    api_key = ""
-    if use_llm:
-        api_key = st.text_input("Gemini API Key", type="password", value=GEMINI_API_KEY,
-                                 label_visibility="collapsed",
-                                 placeholder="Enter API key...")
 
     st.markdown("---")
 
@@ -815,7 +810,7 @@ else:
                 answer_data = generate_answer(
                     question=query,
                     retrieved_chunks=answer_chunks,
-                    api_key=api_key if use_llm else "",
+                    api_key=GEMINI_API_KEY if use_llm else "",
                     use_llm=use_llm,
                 )
 
