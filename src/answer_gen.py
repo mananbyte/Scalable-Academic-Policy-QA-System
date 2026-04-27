@@ -7,6 +7,7 @@ Supports two modes:
    (works without any API key)
 """
 import re
+from google.genai import types
 
 try:
     from google import genai
@@ -147,6 +148,7 @@ ANSWER:"""
     response = client.models.generate_content(
         model=GEMINI_MODEL,
         contents=prompt,
+        config=types.GenerateContentConfig(thinking_config=types.ThinkingConfig(thinking_level="low")),
     )
 
     # Build sources list

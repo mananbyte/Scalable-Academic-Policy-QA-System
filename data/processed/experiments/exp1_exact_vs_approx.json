@@ -1,0 +1,377 @@
+[
+  {
+    "query": "What is the minimum GPA requirement?",
+    "lsh_time_ms": 31.19,
+    "tfidf_time_ms": 9.54,
+    "lsh_memory_kb": 309.68,
+    "tfidf_memory_kb": 301.25,
+    "overlap": 1,
+    "overlap_ratio": 0.2,
+    "lsh_avg_score": 0.0948,
+    "tfidf_avg_score": 0.0774,
+    "lsh_top_chunks": [
+      11,
+      12,
+      10,
+      13,
+      9
+    ],
+    "tfidf_top_chunks": [
+      23,
+      30,
+      11,
+      42,
+      22
+    ]
+  },
+  {
+    "query": "What happens if a student fails a course?",
+    "lsh_time_ms": 49.25,
+    "tfidf_time_ms": 8.28,
+    "lsh_memory_kb": 305.39,
+    "tfidf_memory_kb": 301.23,
+    "overlap": 1,
+    "overlap_ratio": 0.2,
+    "lsh_avg_score": 0.1134,
+    "tfidf_avg_score": 0.1783,
+    "lsh_top_chunks": [
+      31,
+      10,
+      50,
+      11,
+      6
+    ],
+    "tfidf_top_chunks": [
+      27,
+      35,
+      15,
+      30,
+      31
+    ]
+  },
+  {
+    "query": "What is the attendance policy?",
+    "lsh_time_ms": 29.67,
+    "tfidf_time_ms": 6.68,
+    "lsh_memory_kb": 303.77,
+    "tfidf_memory_kb": 301.2,
+    "overlap": 1,
+    "overlap_ratio": 0.2,
+    "lsh_avg_score": 0.0989,
+    "tfidf_avg_score": 0.1163,
+    "lsh_top_chunks": [
+      7,
+      13,
+      10,
+      9,
+      14
+    ],
+    "tfidf_top_chunks": [
+      30,
+      7,
+      33,
+      25,
+      19
+    ]
+  },
+  {
+    "query": "How many times can a course be repeated?",
+    "lsh_time_ms": 34.5,
+    "tfidf_time_ms": 5.7,
+    "lsh_memory_kb": 304.37,
+    "tfidf_memory_kb": 301.2,
+    "overlap": 1,
+    "overlap_ratio": 0.2,
+    "lsh_avg_score": 0.0919,
+    "tfidf_avg_score": 0.1264,
+    "lsh_top_chunks": [
+      14,
+      6,
+      11,
+      10,
+      0
+    ],
+    "tfidf_top_chunks": [
+      27,
+      35,
+      15,
+      14,
+      37
+    ]
+  },
+  {
+    "query": "What are the credit hour requirements for graduation?",
+    "lsh_time_ms": 39.02,
+    "tfidf_time_ms": 4.26,
+    "lsh_memory_kb": 304.46,
+    "tfidf_memory_kb": 301.2,
+    "overlap": 3,
+    "overlap_ratio": 0.6,
+    "lsh_avg_score": 0.1074,
+    "tfidf_avg_score": 0.1208,
+    "lsh_top_chunks": [
+      6,
+      10,
+      9,
+      8,
+      11
+    ],
+    "tfidf_top_chunks": [
+      6,
+      40,
+      10,
+      17,
+      9
+    ]
+  },
+  {
+    "query": "What is the fee refund policy?",
+    "lsh_time_ms": 32.26,
+    "tfidf_time_ms": 5.84,
+    "lsh_memory_kb": 303.78,
+    "tfidf_memory_kb": 301.03,
+    "overlap": 0,
+    "overlap_ratio": 0.0,
+    "lsh_avg_score": 0.0867,
+    "tfidf_avg_score": 0.1047,
+    "lsh_top_chunks": [
+      14,
+      12,
+      13,
+      1,
+      7
+    ],
+    "tfidf_top_chunks": [
+      48,
+      34,
+      26,
+      37,
+      82
+    ]
+  },
+  {
+    "query": "How is the semester GPA calculated?",
+    "lsh_time_ms": 40.03,
+    "tfidf_time_ms": 10.5,
+    "lsh_memory_kb": 303.59,
+    "tfidf_memory_kb": 300.97,
+    "overlap": 1,
+    "overlap_ratio": 0.2,
+    "lsh_avg_score": 0.093,
+    "tfidf_avg_score": 0.0806,
+    "lsh_top_chunks": [
+      11,
+      13,
+      12,
+      7,
+      10
+    ],
+    "tfidf_top_chunks": [
+      11,
+      40,
+      33,
+      22,
+      31
+    ]
+  },
+  {
+    "query": "What is the policy on plagiarism?",
+    "lsh_time_ms": 44.82,
+    "tfidf_time_ms": 7.97,
+    "lsh_memory_kb": 303.5,
+    "tfidf_memory_kb": 300.88,
+    "overlap": 0,
+    "overlap_ratio": 0.0,
+    "lsh_avg_score": 0.0824,
+    "tfidf_avg_score": 0.0745,
+    "lsh_top_chunks": [
+      13,
+      7,
+      14,
+      12,
+      8
+    ],
+    "tfidf_top_chunks": [
+      28,
+      61,
+      59,
+      33,
+      41
+    ]
+  },
+  {
+    "query": "Can a student change their program?",
+    "lsh_time_ms": 33.53,
+    "tfidf_time_ms": 5.47,
+    "lsh_memory_kb": 303.7,
+    "tfidf_memory_kb": 300.88,
+    "overlap": 0,
+    "overlap_ratio": 0.0,
+    "lsh_avg_score": 0.0834,
+    "tfidf_avg_score": 0.076,
+    "lsh_top_chunks": [
+      10,
+      2,
+      13,
+      14,
+      12
+    ],
+    "tfidf_top_chunks": [
+      40,
+      86,
+      69,
+      39,
+      85
+    ]
+  },
+  {
+    "query": "What are the hostel rules?",
+    "lsh_time_ms": 29.75,
+    "tfidf_time_ms": 4.36,
+    "lsh_memory_kb": 303.41,
+    "tfidf_memory_kb": 301.07,
+    "overlap": 0,
+    "overlap_ratio": 0.0,
+    "lsh_avg_score": 0.0861,
+    "tfidf_avg_score": 0.1759,
+    "lsh_top_chunks": [
+      1,
+      14,
+      0,
+      2,
+      3
+    ],
+    "tfidf_top_chunks": [
+      80,
+      85,
+      73,
+      78,
+      72
+    ]
+  },
+  {
+    "query": "What is the grading system?",
+    "lsh_time_ms": 27.98,
+    "tfidf_time_ms": 5.5,
+    "lsh_memory_kb": 303.37,
+    "tfidf_memory_kb": 300.85,
+    "overlap": 2,
+    "overlap_ratio": 0.4,
+    "lsh_avg_score": 0.0937,
+    "tfidf_avg_score": 0.0997,
+    "lsh_top_chunks": [
+      9,
+      10,
+      6,
+      0,
+      1
+    ],
+    "tfidf_top_chunks": [
+      18,
+      9,
+      30,
+      10,
+      17
+    ]
+  },
+  {
+    "query": "How can a student apply for re-checking of papers?",
+    "lsh_time_ms": 42.45,
+    "tfidf_time_ms": 7.59,
+    "lsh_memory_kb": 304.15,
+    "tfidf_memory_kb": 300.9,
+    "overlap": 5,
+    "overlap_ratio": 1.0,
+    "lsh_avg_score": 0.1276,
+    "tfidf_avg_score": 0.1061,
+    "lsh_top_chunks": [
+      81,
+      1,
+      7,
+      8,
+      12
+    ],
+    "tfidf_top_chunks": [
+      81,
+      1,
+      7,
+      8,
+      12
+    ]
+  },
+  {
+    "query": "What are the rules for dropping a course?",
+    "lsh_time_ms": 41.14,
+    "tfidf_time_ms": 4.03,
+    "lsh_memory_kb": 304.04,
+    "tfidf_memory_kb": 300.87,
+    "overlap": 2,
+    "overlap_ratio": 0.4,
+    "lsh_avg_score": 0.1,
+    "tfidf_avg_score": 0.1209,
+    "lsh_top_chunks": [
+      11,
+      10,
+      14,
+      6,
+      12
+    ],
+    "tfidf_top_chunks": [
+      31,
+      11,
+      21,
+      80,
+      10
+    ]
+  },
+  {
+    "query": "What is the medal and prize policy?",
+    "lsh_time_ms": 31.08,
+    "tfidf_time_ms": 5.26,
+    "lsh_memory_kb": 303.98,
+    "tfidf_memory_kb": 300.91,
+    "overlap": 1,
+    "overlap_ratio": 0.2,
+    "lsh_avg_score": 0.0837,
+    "tfidf_avg_score": 0.0934,
+    "lsh_top_chunks": [
+      11,
+      13,
+      7,
+      14,
+      12
+    ],
+    "tfidf_top_chunks": [
+      53,
+      27,
+      15,
+      11,
+      35
+    ]
+  },
+  {
+    "query": "What happens if a student's GPA falls below minimum?",
+    "lsh_time_ms": 46.53,
+    "tfidf_time_ms": 43.94,
+    "lsh_memory_kb": 304.26,
+    "tfidf_memory_kb": 300.89,
+    "overlap": 2,
+    "overlap_ratio": 0.4,
+    "lsh_avg_score": 0.0962,
+    "tfidf_avg_score": 0.0813,
+    "lsh_top_chunks": [
+      7,
+      11,
+      12,
+      13,
+      9
+    ],
+    "tfidf_top_chunks": [
+      19,
+      23,
+      30,
+      7,
+      11
+    ]
+  }
+]

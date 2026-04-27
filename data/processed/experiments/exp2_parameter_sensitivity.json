@@ -1,0 +1,148 @@
+{
+  "minhash_num_hashes": [
+    {
+      "num_hashes": 16,
+      "build_time_ms": 1605.6,
+      "avg_query_time_ms": 1.03,
+      "avg_recall": 0.8,
+      "avg_jaccard_error": 0
+    },
+    {
+      "num_hashes": 32,
+      "build_time_ms": 4078.9,
+      "avg_query_time_ms": 0.98,
+      "avg_recall": 0.8,
+      "avg_jaccard_error": 0
+    },
+    {
+      "num_hashes": 64,
+      "build_time_ms": 7875.1,
+      "avg_query_time_ms": 1.21,
+      "avg_recall": 0.88,
+      "avg_jaccard_error": 0
+    },
+    {
+      "num_hashes": 128,
+      "build_time_ms": 14388.9,
+      "avg_query_time_ms": 0.67,
+      "avg_recall": 0.88,
+      "avg_jaccard_error": 0
+    },
+    {
+      "num_hashes": 256,
+      "build_time_ms": 28317.2,
+      "avg_query_time_ms": 1.15,
+      "avg_recall": 0.88,
+      "avg_jaccard_error": 0
+    }
+  ],
+  "lsh_num_bands": [
+    {
+      "num_bands": 2,
+      "rows_per_band": 64,
+      "avg_query_time_ms": 10.97,
+      "avg_recall": 0.88,
+      "avg_banding_candidates": 0.0
+    },
+    {
+      "num_bands": 4,
+      "rows_per_band": 32,
+      "avg_query_time_ms": 4.45,
+      "avg_recall": 0.88,
+      "avg_banding_candidates": 0.0
+    },
+    {
+      "num_bands": 8,
+      "rows_per_band": 16,
+      "avg_query_time_ms": 7.55,
+      "avg_recall": 0.88,
+      "avg_banding_candidates": 0.0
+    },
+    {
+      "num_bands": 16,
+      "rows_per_band": 8,
+      "avg_query_time_ms": 5.73,
+      "avg_recall": 0.88,
+      "avg_banding_candidates": 0.0
+    },
+    {
+      "num_bands": 32,
+      "rows_per_band": 4,
+      "avg_query_time_ms": 10.19,
+      "avg_recall": 0.88,
+      "avg_banding_candidates": 0.0
+    },
+    {
+      "num_bands": 64,
+      "rows_per_band": 2,
+      "avg_query_time_ms": 6.97,
+      "avg_recall": 0.88,
+      "avg_banding_candidates": 0.0
+    }
+  ],
+  "simhash_threshold": [
+    {
+      "threshold": 3,
+      "avg_query_time_ms": 0.44,
+      "avg_results_found": 0.0,
+      "avg_chunks_within_threshold": 0.0,
+      "selectivity_pct": 0.0
+    },
+    {
+      "threshold": 5,
+      "avg_query_time_ms": 0.44,
+      "avg_results_found": 0.0,
+      "avg_chunks_within_threshold": 0.0,
+      "selectivity_pct": 0.0
+    },
+    {
+      "threshold": 10,
+      "avg_query_time_ms": 0.57,
+      "avg_results_found": 0.0,
+      "avg_chunks_within_threshold": 0.0,
+      "selectivity_pct": 0.0
+    },
+    {
+      "threshold": 15,
+      "avg_query_time_ms": 1.38,
+      "avg_results_found": 0.0,
+      "avg_chunks_within_threshold": 0.0,
+      "selectivity_pct": 0.0
+    },
+    {
+      "threshold": 20,
+      "avg_query_time_ms": 0.54,
+      "avg_results_found": 0.0,
+      "avg_chunks_within_threshold": 0.0,
+      "selectivity_pct": 0.0
+    },
+    {
+      "threshold": 30,
+      "avg_query_time_ms": 0.89,
+      "avg_results_found": 0.0,
+      "avg_chunks_within_threshold": 0.0,
+      "selectivity_pct": 0.0
+    },
+    {
+      "threshold": 40,
+      "avg_query_time_ms": 0.52,
+      "avg_results_found": 0.0,
+      "avg_chunks_within_threshold": 0.0,
+      "selectivity_pct": 0.0
+    },
+    {
+      "threshold": 50,
+      "avg_query_time_ms": 0.56,
+      "avg_results_found": 3.4,
+      "avg_chunks_within_threshold": 10.2,
+      "selectivity_pct": 11.6
+    },
+    {
+      "threshold": 64,
+      "avg_query_time_ms": 2.18,
+      "avg_results_found": 5.0,
+      "avg_chunks_within_threshold": 83.4,
+      "selectivity_pct": 94.8
+    }
+  ]
+}
